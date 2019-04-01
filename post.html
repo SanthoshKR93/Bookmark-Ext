@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet"> 
+      <link href="style.css" rel="stylesheet" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+      <script src="post.js"></script> 
+
+
+
+  </head>
+
+  <body>
+
+
+  <div class="modal-header">
+    
+    <h2 class="logo">
+      <img src="images/logo150.png" alt="bookmark manager" class="logo-icon">&nbsp;Bookmark Manager&nbsp;<span class="version">(1.0)</span>
+    </h2>
+  
+  </div>
+  
+    <div class = "container-1">
+<br><br>
+<hr>
+      <form id="myform">
+    <div class="form-group" style="width: 330px">
+        <label for="link1">URL</label>
+        <input type="url" class="form-control" aria-describedby="urlHelp" id = "link1" onclick = "urlset()">
+        <small id="urlHelp" class="form-text text-muted">This is the URL for the page to be bookmarked.</small>
+    </div>
+    <div class="form-group" style="width: 330px">
+        <label for="comment">Comment</label>
+        <textarea class="form-control" rows="5" id="comment" placeholder="Add a Comment"></textarea>
+    </div>
+
+        <button type="submit" class="btn btn-primary" onclick="postdata()" id="sub">Submit</button>
+        
+
+      </form> 
+      <a href="home.html"><button class ="btn btn-secondary" id = "back">Back</button></a>
+      <hr> 
+    </div>
+
+</body>
+</html>

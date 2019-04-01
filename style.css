@@ -1,0 +1,115 @@
+.container {
+	align-items: center;
+	width: 50%;
+	padding: 50px 0;
+}
+
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    height: 500px;
+    overflow-y: auto;
+}
+#createli {
+	font-family: 'Roboto Slab', serif;
+	margin-left: -100px;
+}
+li {
+	width: 370px;
+	word-wrap: break-word;
+
+} 
+
+.container-1 {
+	align-items: center;
+	width: 20%;
+	margin-left: 13%;
+	margin-top: -6%;
+	padding: 50px 56px;
+	border: 0px solid black;
+}
+html,body {
+	    font-family: 'Roboto Slab', serif;
+	    font-size: 14px;
+	    margin: 0;
+	    min-height: 180px;
+	    padding: 0;
+	    width: 384px;
+
+}
+
+h1 {
+
+	font-family: 'Menlo',monospace;
+	font-size: 15px;
+	font-weight: 400;
+	margin: 0;
+	color: #2f5876;
+}
+a.link,a.visited {
+	color: #000;
+	outline: 0;
+	text-decoration: none;
+}
+
+img {
+	width: 30px;
+}
+
+.modal-header {
+	align-items: center;
+	border-bottom: 0.5px solid #dadada;
+}
+.version {
+	color: #444;
+	font-size: 18px;
+
+}
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 22px;
+}
+#back
+{
+	float: left;
+}
+hr {
+	width: 180px;
+}
+
+#center{
+margin-left: 45px;
+}
+
+#myform
+{
+	margin-left: -80px;
+}
+#create_button
+{
+	margin-left: 22px;
+
+}
+#logout
+{
+	float: left;
+}
+
+#back
+{
+	float: right;
+	margin-left: -100px;
+}
+#center1
+{
+	margin-left: 50px;
+}
+#sub
+{
+	margin-top: 10px;
+	margin-left: 22px;
+	margin-bottom: 10px;
+
+}
